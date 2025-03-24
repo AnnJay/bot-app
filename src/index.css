@@ -1,0 +1,37 @@
+:root {
+  --color-bg: #313e62;
+  --color-container-bg: #0e0c15;
+
+  --color-input-bg: #121825;
+  --color-input-border: #313e62;
+  --color-input-border-focus: #4285f4;
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9ca3af;
+  --color-text-button: white;
+
+  --color-button-primary: #1c64f2;
+  --color-button-hover: #2354be;
+
+  --shadow-container: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-input-focus: 0 0 0 2px rgba(66, 133, 244, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+input,
+button {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container--centered {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: var(--color-container-bg);
+}

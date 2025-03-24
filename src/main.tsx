@@ -5,6 +5,9 @@ import { AppRoutes } from "./app/routing/routes.tsx";
 import { AppStateProvider } from "./app/providers/AppStateProvider.tsx";
 import { RouterProvider } from "./app/providers/RouterProvider.tsx";
 
+import "./normalize.css";
+import "./index.css";
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <AppStateProvider>
